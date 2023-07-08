@@ -1,17 +1,17 @@
 """"
-Curso: Principios básicos de Python
+Course: Principios básicos de Python
 Author: Stiven Arboleda
-Fecha: 08/Jul/2023
+Date: 08/Jul/2023
 """
 
 '''
-ADICIÓN         |   +
-SUSTRACIÓN:     |   -
-MULTIPLICACIÓN  |   *
-DIVISIÓN        |   /   División de flotante
-DIVISIÓN        |   //  División de piso
-MÓDULO          |   %   
-EXPONENCIACIÓN  |   **
+ADDITION         |   +
+SUBSTRATION      |   -
+MULTIPLICATION   |   *
+DIVISION         |   /   Floating division
+DIVISION         |   //  Floor division
+MODULE           |   %   
+EXPONENTIATION   |   **
 '''
 
 x = 100
@@ -23,16 +23,16 @@ print("La suma de x con y =", x+y)
 print("La resta de x con y =", x-y)
 print("La multiplicación de x con y =", x*y)
 
-#División flotante
-x, y = 13,2 # -> Se asigna nuevos valores a X y Y por efectos del ejemplo
+#Floating division
+x, y = 13,2 # -> New values ​​are assigned to X and Y for purposes of the example
 print("La división de x con y =", x/y)
-#División de piso
+#Floor division
 print("La división de x con y exacta =", x//y)
 
-#Módulo
+#Module
 x, y = 13, 2
 print("El módulo de x con y =", x%y)
 
-#Potencia
+#Potency
 x, y = 2, 5
 print("La potencia de x con y", x**y)
