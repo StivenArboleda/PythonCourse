@@ -28,7 +28,4 @@ for element in range(1, 10, 1):
         continue #Does not execute the below, start again
     print(element)
 
-    i = 1 
-    numero = 5 
-    while numero > i: 
-        print(i**3)
+
