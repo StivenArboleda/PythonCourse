@@ -1,5 +1,5 @@
 """"
-Course: Principios básicos de Python
+Course: Desarrollo en Python Avanzado
 Author: Stiven Arboleda
 Date: 05/Ene/2024
 """
