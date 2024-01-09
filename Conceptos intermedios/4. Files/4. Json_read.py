@@ -17,7 +17,7 @@ with open("/Users/Maxy/Documents/GitHub/PythonCourse/berry.json", 'r') as json_f
     """
 """ Example 2 """
 
-with open("/Users/Maxy/Documents/GitHub/PythonCourse/berry.json", 'r') as json_file:
+with open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/berry.json", 'r') as json_file:
     data = json.load(json_file)
     
 print(json.dumps(data, indent=2))

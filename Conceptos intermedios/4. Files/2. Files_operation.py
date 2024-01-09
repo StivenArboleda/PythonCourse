@@ -4,7 +4,7 @@ Author: Stiven Arboleda
 Date: 05/Ene/2024
 """
 
-fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/text.txt")
+fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/text.txt")
 
 linea = fichero.readline()
 print(type(linea))
@@ -15,7 +15,7 @@ fichero.close()
 
 """Example 2"""
 
-fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/text.txt")
+fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/text.txt")
 
 sentence = fichero.readline()
 while sentence != "":
@@ -26,7 +26,7 @@ fichero.close()
     
 #Write
 
-fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/textTwo.txt", 'w')
+fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/textTwo.txt", 'w')
 
 fichero.write("Archivo nuevo")
 
@@ -34,7 +34,7 @@ fichero.close()
 
 #Write 2
 
-fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/ListText.txt", 'w')
+fichero = open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/ListText.txt", 'w')
 
 list = ["Apple", "pear", "orange"]
 

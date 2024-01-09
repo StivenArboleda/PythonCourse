@@ -12,7 +12,7 @@ obj = {
     "Cyty": "Cali"
 }
 
-with open("/Users/Maxy/Documents/GitHub/PythonCourse/test.json", 'w') as outfile:
+with open("/Users/Maxy/Documents/GitHub/PythonCourse/documents/test.json", 'w') as outfile:
     #Convert to Json:
     json.dump(obj, outfile)
     
